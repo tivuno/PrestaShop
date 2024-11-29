@@ -981,7 +981,7 @@ class HookCore extends ObjectModel
                 // If this is a chain hook and it's not the first module to call,
                 // we will pass the response from the previous one as parameters.
                 if (0 !== $key && true === $chain) {
-                    $hook_args = $output;
+                    $hook_args['response_from_previous'] = $output;
                 }
 
                 $display = Hook::callHookOn($moduleInstance, $registeredHookName, $hook_args);
