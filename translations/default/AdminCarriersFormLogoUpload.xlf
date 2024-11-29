@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="src/PrestaShopBundle/Form/Admin/Improve/Shipping/Carrier/GeneralSettings.php" source-language="en-US" target-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="8e6c64a901e609a97351f999949d90d3">
+        <source>Please upload a valid jpeg file</source>
+        <target>Please upload a valid jpeg file</target>
+        <note>Line: 104</note>
+      </trans-unit>
+      <trans-unit id="f39b85edce7f4e450d01829da2b70c44">
+        <source>The file is too large. Allowed maximum size is 8MB.</source>
+        <target>The file is too large. Allowed maximum size is 8MB.</target>
+        <note>Line: 105</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
